@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.alro2025.bienvenido.MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="@drawable/fondo_android"
+    android:elevation="1dp">
+
+    <Button
+        android:text="@string/bot_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:backgroundTint="@android:color/background_dark"
+        android:elevation="1dp"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:fontFamily="sans-serif"
+        android:elevation="0dp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+</RelativeLayout>
